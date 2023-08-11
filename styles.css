@@ -6,3 +6,277 @@
   --color-1: rgb(34, 34, 34);
   --color-2: rgb(102, 102, 102);
 }
+
+body {
+  background-color: var(--background);
+  font: 400 16px "Poppins", sans-serif;
+}
+
+/*Section 5*/
+
+.container-section-5 {
+  width: 100%;
+  height: 80vh;
+  min-height: 350px;
+  flex-wrap: wrap;
+}
+
+.container-card-1 {
+  width: 100%;
+  max-width: 394px;
+}
+
+div.container-section-5 section .perfil-photo-1 {
+  width: 52px;
+  position: absolute;
+  top: -18px;
+  right: 95%;
+}
+
+div.container-section-5 section .container-card-1 .Btn {
+  cursor: pointer;
+}
+
+section h2 span.orange {
+  color: var(--orange);
+}
+
+section h2.Volkhov {
+  font: 700 48px "Volkhov", serif;
+}
+
+.container-section-5 section .container-card-1 p.text-card-1 {
+  font: 400 16px "Poppins", sans-serif;
+  color: var(--color-2);
+}
+
+.container-card-2 {
+  position: relative;
+  width: 100%;
+  max-width: 541px;
+  background-color: var(--white);
+  border: 1px black;
+  border-radius: 12px;
+  box-shadow: 0px 0px 2px 0px var(--color-2);
+  z-index: 1000;
+}
+
+section p.text-card-2 {
+  font: 500 16px "Poppins", sans-serif;
+}
+
+.container-section-5 section span.name-card-2 {
+  font: 600 18px "Poppins", sans-serif;
+}
+
+.container-section-5 section span.country-card-2 {
+  font: 500 14px "Poppins", sans-serif;
+  color: var(--color-2);
+}
+
+.container-section-5 section .container-card-2 img.Element-section-5 {
+  width: 100px;
+  position: absolute;
+  left: 100%;
+  top: -20%;
+}
+
+.container-card-3 {
+  position: absolute;
+  top: 40%;
+  left: 51%;
+  width: 100%;
+  max-width: 500px;
+  height: 232px;
+  border: 1px black;
+  border-radius: 12px;
+  box-shadow: 0px 0px 2px 0px rgba(102, 102, 102, 8%);
+  z-index: 1;
+}
+
+.text-container-card-3 {
+  background-color: rgb(102, 102, 102, 8%);
+  border: 1px black;
+  border-radius: 12px;
+  box-shadow: 0px 0px 2px 0px rgba(102, 102, 102, 0.8);
+}
+
+/*Section 6*/
+
+.general-container-section-6 {
+  background-color: var(--white);
+}
+
+.img-section-6 {
+  cursor: pointer;
+}
+
+.container-cards {
+  flex-wrap: wrap;
+}
+
+.cards {
+  width: 100%;
+  max-width: 270px;
+}
+
+.content-card {
+  width: 244px;
+}
+
+.date {
+  font: 500 14px "Poppins", sans-serif;
+  color: var(--color-2);
+}
+
+.circle-center {
+  background-color: var(--orange);
+  width: 8px;
+  height: 8px;
+  border-radius: 15px;
+}
+
+.circle {
+  background-color: var(--color-2);
+  width: 8px;
+  height: 8px;
+  border-radius: 15px;
+}
+
+/*Footer*/
+
+.general-container-footer {
+  background-color: var(--background);
+}
+
+.container-section-footer {
+  background-color: var(--orange);
+  border-radius: 15px;
+  width: 100%;
+  height: 416px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contet-section-footer {
+  width: 80%;
+  max-width: 708px;
+}
+
+.container-section-footer__img-1 {
+  position: absolute;
+  right: 0px;
+  top: 15px;
+}
+
+.Ellipse-19 {
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+}
+
+.title-contet-section-footer {
+  width: 100%;
+  color: var(--white);
+  font: 700 48px "Volkhov", serif;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-field {
+  height: 68px;
+  font: 400 16px "Poppins", sans-serif;
+}
+
+.input-field:focus {
+  box-shadow: 0 0 3px var(--background);
+  outline: none;
+}
+
+.btn__section-footer {
+  background-color: var(--orange);
+  color: var(--white);
+  cursor: pointer;
+
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  font: 400 16px "Poppins", sans-serif;
+}
+
+.btn__section-footer:hover {
+  background-color: rgb(253, 97, 25);
+}
+
+.content-footer {
+  width: 255px;
+}
+
+.content-footer_2 {
+  width: 100%;
+}
+
+ul {
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-2);
+}
+
+li {
+  list-style: none;
+}
+
+.title-list {
+  font: 600 16px "Poppins", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.copy-container__content {
+  color: var(--color-2);
+}
+
+@media screen and (max-width: 572px) {
+  .container-section-5 section .container-card-2 img.Element-section-5 {
+    width: 100px;
+    position: absolute;
+    left: 70%;
+    top: -40%;
+  }
+
+  .container-card-3 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 100%;
+    max-width: 500px;
+    height: 232px;
+    border: 1px black;
+    border-radius: 12px;
+    box-shadow: 0px 0px 2px 0px rgba(102, 102, 102, 8%);
+    z-index: 1;
+  }
+
+  .title-contet-section-footer {
+    width: 100%;
+    color: var(--white);
+    font-size: 22px;
+  }
+
+  .btn__section-footer {
+    position: relative;
+    display: flex;
+    right: 0px;
+    width: 100%;
+    justify-content: center;
+    background-color: rgb(252, 86, 9);
+  }
+}
